@@ -1,15 +1,11 @@
 Above website was create using HTML5, CSS and some JAVASCRIPT.
 
-Firebase was used as a cloud storage database, and was initialiazed using JAVASCRIPT
-
-Users can creat an account, login to their accounts, or even make a purchase on the website.
-Users can also sign up for a tournament of their choice for their desired title.
 PROJECT TITLE: Esports-African-League
 
 PURPOSE OF PROJECT: Online esports tournament platform
 
-VERSION or DATE:
+VERSION or DATE: Prototype
 
-HOW TO START THIS PROJECT:
+HOW TO START THIS PROJECT: The folder can be downloaded as a zip file. 
 
-USER INSTRUCTIONS:
+USER INSTRUCTIONS: Once extracted, it is recommended to use an IDE with a live server add on open up the web pages where a user can create an account, login, make a purchase or sign up for a tournament of their choice
