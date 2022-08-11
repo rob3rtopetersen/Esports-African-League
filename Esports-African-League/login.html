@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/jpg" href="/images/logo3.png"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.0/firebase-auth.js"></script>
+    <script src="/js/register.js"></script>
+    <title>African Esports League</title>
+  </head>
+  <body>
+    <header>
+      <!-- Logo -->
+       <a href="index.html" class="logo"><img src = '/images/logo.png'></a>
+      <!-- navbar -->
+     <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="games.html">Games</a></li>
+        <li><a href="tournaments.html">Tournaments</a></li>
+        <li><a href="training.html">Training</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <!-- navbar end -->
+      <!-- sign up and register -->
+      <div class="action">
+        <ul class="sgnup">
+          <li><a href="login.html" id="lgin">Login</a></li>
+          <button type="button" onclick="signOut();">Log out</button>
+        </ul>
+      </div>
+      <!-- sign up and register end-->
+      <div class="menu"></div>
+    </header>
+    <!-- login content-->
+
+    <!-- Login Form-->
+ 
+<div class="fcontainer">
+  <div class="fcard">
+    
+              <h2>LOG IN</h2>
+              <br>
+              <label for="email">Email</label><br>
+              <input type="email" id="email" name="email" required><br>
+              <label for="password">Password</label><br>
+              <input type="password" id="password" name="password" required> <br><br>
+              <button type="button" onclick="signIn();">Log In</button> <br><br>
+              <p> Do not have an account? <a href="register.html" id="rgs">Register</a> </p>
+              
+      </div>
+</div>
+
+ 
+   <!-- Login Form End-->
+    <footer>
+        <div class="info">
+          <a href="" class="logo">Esports African League</a>
+          <p><i class="bx bx-copyright">2022 All Rights Reserved</i></p>
+          <ul>
+            <li><a href=""><img src="/images/fb-icon.png" alt=""><i class="bx bx1-fb"></i></a></li>
+            <li><a href=""><img src="/images/discord-icon.png" alt=""><i class="bx bx1-disc"></i></a></li>
+            <li><a href=""><img src="/images/twitter-icon.png" alt=""><i class="bx bx1-tw"></i></a></li>
+            <li><a href=""><img src="/images/yt-icon.png" alt=""><i class="bx bx1-yt"></i></a></li>
+          </ul>
+        </div>
+      </footer> 
+  </body>
+</html>

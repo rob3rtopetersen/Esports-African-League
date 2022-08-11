@@ -1,0 +1,1080 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background: #8593ae;
+}
+
+/* header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #16253d;
+    transition: 1s;
+    z-index: 1000;
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* scrollbar end */
+
+::-webkit-scrollbar-thumb {
+    background: #7d589b;
+    border-radius: 5px;
+}
+
+.container {
+    margin: 200px;
+    color: white;
+}
+
+/* about section */
+
+.acontainer {
+    margin: 200px;
+}
+
+.iacontainer {
+    margin: 100px;
+}
+
+.about-section {
+    text-align: center;
+    color: white;
+}
+
+.TeamName {
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+
+}
+
+.about-section h1 {
+    font-size: 2em;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    animation-name: title;
+    animation-duration: 4s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title {
+    0% {
+        color: whitesmoke;
+    }
+
+    25% {
+        color: #d297ee;
+    }
+
+    50% {
+        color: #e0baf2;
+    }
+
+    100% {
+        color: #f2f2f2;
+    }
+}
+
+.about-section p {
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.container h2 {
+    color: #16253d;
+    text-align: center;
+    font-size: 2em;
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+}
+
+.card img {
+    position: relative;
+    border-radius: 20px;
+    width: 50%;
+    left: 300px;
+}
+
+.card img:hover {
+    transition: ease-in-out;
+    transition-duration: 1s;
+    box-shadow: 5px 5px 5px 5px #d297ee;
+}
+
+/* about section ends */
+/* logo */
+
+
+header .logo img {
+
+    height: 100px;
+    width: 200px;
+}
+
+/* nav */
+header .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+header ul li {
+    list-style: none;
+    margin: 15px;
+}
+
+/* nav links text styling*/
+header ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+header ul li a:hover {
+    background: #d297ee;
+    color: #7d589b;
+    box-shadow: 0 0 10px whitesmoke;
+    border-radius: 10px;
+}
+
+/* sign up and register links */
+.sgnup {
+    border-radius: 10px;
+    background: #d297ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sgnup ul li a {
+    background: #7d589b;
+}
+
+.action button {
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #16253d;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* home content container */
+
+.content {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* home content background */
+.content .bg {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .bg .cntnt {
+    width: 50%;
+    height: 100%;
+
+}
+
+/* home content background h2*/
+.content .bg .cntnt h2 {
+    font-size: 3em;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    animation-name: title;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title {
+    0% {
+        color: whitesmoke;
+    }
+
+    25% {
+        color: #d297ee;
+    }
+
+    50% {
+        color: #e0baf2;
+    }
+
+    100% {
+        color: #f2f2f2;
+    }
+}
+
+
+/* home content background p*/
+.content .bg .cntnt p {
+    font-size: 1em;
+    color: black;
+    letter-spacing: 1px;
+}
+
+/* home join now link styling */
+.content .bg .cntnt a {
+    display: inline-block;
+    padding: 10px 10px;
+    color: #ffff;
+    margin: 10px 0;
+    border: 1.5px solid #d297ee;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.content .bg .cntnt a:hover {
+    background: #d297ee;
+    border: none;
+    color: #7d589b;
+    box-shadow: 0 0 10px #7d589b;
+}
+
+/* GAME - cards */
+.game-box {
+    margin-top: 6%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0px 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game {
+    background: whitesmoke;
+    width: 350px;
+    height: 450px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.game-img {
+    background: transparent;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.game h2 {
+    text-align: center;
+}
+
+.game p {
+    text-align: center;
+    padding: 10%;
+}
+
+.game a {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #7d589b;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    margin: 15px 45px;
+    border-radius: 5px;
+}
+
+.game-1 {
+    background-image: url('../images/apexMobile.jpg');
+}
+
+.game-2 {
+    background-image: url('../images/pubgm.png');
+}
+
+.game-3 {
+    background-image: url('../images/CR.jpg');
+}
+
+.game-4 {
+    background-image: url('../images/codm.jpg');
+}
+
+.game-5 {
+    background-image: url('../images/RL.png');
+}
+
+.game-6 {
+    background-image: url('../images/FF.jpeg');
+}
+
+.game:hover {
+    transform: scale(1.06);
+    transition: .5s ease-out;
+    box-shadow: 0 0 20px #d297ee;
+}
+
+/* game cards end */
+
+/* footer */
+footer {
+    padding: 10px 100px;
+
+}
+
+footer .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .info .logo {
+    position: relative;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+footer .info p {
+    color: whitesmoke;
+}
+
+footer .info ul {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .info ul li {
+    list-style: none;
+    height: 55px;
+    width: 55px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .info ul li:hover {
+    background: #d297ee;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 0 0 10px #d297ee;
+}
+
+footer .info ul li a i {
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+
+/* login form */
+.fcontainer {
+    display: block;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 100px;
+    font-family: sans-serif;
+    background: #8593ae;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.fcard {
+    display: block;
+    width: 50%;
+    height: 450px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+.fcard:hover {
+
+    box-shadow: 0 0px 60px #d297ee;
+    border-radius: 15px;
+    transition: .5s ease-in-out;
+
+
+}
+
+.fcard h2 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+.fcard input[type=email] {
+    width: 60%;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.fcard input[type=password] {
+    text-align: center;
+    width: 60%;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.fcard button {
+    left: 40%;
+    background-color: #7d589b;
+    border: none;
+    color: whitesmoke;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.fcard button:hover {
+    border-radius: 25px;
+    transform: scale(1.0);
+    transition: .5s ease-out;
+    box-shadow: 0 0 20px #d297ee;
+    background: #d297ee;
+}
+
+.fcard label {
+    color: black;
+    text-align: center;
+}
+
+.fcard #rgs {
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.fcard #rgs:hover {
+    color: #d297ee;
+
+}
+
+.fcard p {
+    color: black;
+    text-align: center;
+}
+
+/* login form end*/
+
+/* register form */
+.rfcontainer {
+    margin: 30px;
+    display: flex;
+    position: relative;
+    width: 90%;
+    min-height: 100vh;
+    padding: 50px 100px;
+    font-family: sans-serif;
+    background: #8593ae;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.rfcard {
+    display: block;
+    width: 50%;
+    height: 50%;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px #e0baf2;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.rfcard h2 {
+    text-align: center;
+    color: #16253d;
+    padding: 5px;
+    margin: 5px;
+}
+
+.rfcard input[type=text] {
+    text-align: center;
+    width: 70%;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid #7d589b;
+}
+
+.rfcard input[type=tel] {
+    text-align: center;
+    width: 70%;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid #7d589b
+}
+
+.rfcard select {
+    width: 70%;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid #7d589b
+}
+
+.rfcard input[type=date] {
+    width: 70%;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid #7d589b
+}
+
+.rfcard input[type=email] {
+    width: 70%;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid #7d589b
+}
+
+.rfcard input[type=password] {
+    width: 70%;
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid #7d589b
+}
+
+.rfcard button {
+    left: 40%;
+    background-color: #7d589b;
+    border: none;
+    color: #16253d;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.rfcard button:hover {
+    border-radius: 25px;
+    transform: scale(1.0);
+    transition: .5s ease-out;
+    box-shadow: 0 0 20px #d297ee;
+    background: #d297ee;
+}
+
+.rfcard label {
+    color: #16253d;
+    text-align: center;
+}
+
+.rfcard .lgin {
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.rfcard .lgin:hover {
+    color: #d297ee;
+}
+
+.rfcard p {
+    margin: 10px;
+    padding: 10px;
+    color: #16253d;
+    text-align: center;
+}
+
+/* register form */
+/* contact us content */
+
+.cont {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont form {
+    background: #f2f2f2;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    width: 45%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont form h2 {
+    color: #7d589b;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cont form p {
+    text-align: center;
+    color: #7d589b;
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+
+.cont button {
+    position: relative;
+    left: 41%;
+    width: 150px;
+    background-color: #7d589b;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+
+.cont button:hover {
+    border-radius: 25px;
+    transform: scale(1.0);
+    transition: .5s ease-out;
+    box-shadow: 0 0 20px #d297ee;
+    background: #d297ee;
+}
+
+.cont input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.cont input[type=email] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* contact content end*/
+/* tournament content */
+.tournaments {
+    padding: 100px 100px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tournaments h2 {
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px 0;
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+    0% {
+        color: whitesmoke;
+    }
+
+    25% {
+        color: #d297ee;
+    }
+
+    50% {
+        color: #e0baf2;
+    }
+
+    100% {
+        color: #f2f2f2;
+    }
+}
+
+.tournaments .boxBx {
+
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tournaments .boxBx .box {
+    width: 480px;
+    border-radius: 40px;
+    margin: 20px;
+    background: #7f6594;
+    overflow: hidden;
+}
+
+.tournaments .boxBx .box:hover {
+    transform: scale(1.06);
+    transition: .5s ease-out;
+    box-shadow: 10px 10px 10px 10px #d297ee;
+}
+
+.tournaments .boxBx .box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tournaments .boxBx .box .tcontent {
+    padding: 10px;
+}
+
+.tournaments .boxBx .box .tcontent h4 {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 15px;
+}
+
+.tournaments .boxBx .box .tcontent h4 span {
+    color: #16253d;
+    text-transform: uppercase;
+}
+
+.tournaments .boxBx .box .tcontent p {
+    font-size: 18px;
+    text-align: justify;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+.tournaments .boxBx .box .tcontent .btn {
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tournaments .boxBx .box .tcontent .join {
+    position: relative;
+    left: 155px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border: 1px solid #d297ee;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+
+.tournaments .boxBx .box .tcontent .join:hover {
+    background: #d297ee;
+    border: none;
+    color: #7d589b;
+    box-shadow: 0 0 10px #d297ee;
+}
+
+/* tournament content end*/
+
+
+
+/* training cards + cart */
+.section-header {
+    text-align: center;
+    font-size: 40px;
+    animation-name: title;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title {
+    0% {
+        color: whitesmoke;
+    }
+
+    25% {
+        color: #d297ee;
+    }
+
+    50% {
+        color: #e0baf2;
+    }
+
+    100% {
+        color: #f2f2f2;
+    }
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.btn-primary {
+    color: whitesmoke;
+    background-color: #7d589b;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #d297ee;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #16253d;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+    border-radius: 10px;
+}
+
+.shop-item-image:hover {
+    transform: scale(1.02);
+    transition: .5s ease-out;
+    box-shadow: 5px 5px #d297ee;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #16253d;
+    font-weight: bold;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #16253d;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #16253d;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.btn-danger:hover {
+    background-color: red;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #16253d;
+    background-color: whitesmoke;
+    color: #16253d;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid #16253d;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #16253d;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #16253d;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+/* training cards + cart end */
